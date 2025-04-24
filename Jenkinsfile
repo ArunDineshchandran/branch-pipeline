@@ -15,6 +15,13 @@ pipeline {
                 
             }
         }
+	    stage('Deploy') {
+            steps {
+                echo 'Deploy the project...'
+                
+            }
+        }
+	    
 	post {
 
 	sucess{
